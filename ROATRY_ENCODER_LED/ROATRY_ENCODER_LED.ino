@@ -24,7 +24,7 @@ void loop() {
 void rotate(ESPRotary& r) {
    pos = r.getPosition();
 
-   digitalWrite(led[pos],HI  GH);
+   digitalWrite(led[pos],HIGH);
    digitalWrite(led[pos-1],LOW);
    Serial.println(pos);
 }
